@@ -1,0 +1,15 @@
+{
+  "version": "1.0.10",
+  "name": "@belette/shared-utils",
+  "types": "build/index.d.ts",
+  "main": "build/index.js",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "test": "jest --forceExit --coverage",
+    "test:watch": "jest --watch --coverage"
+  },
+  "dependencies": {}
+}

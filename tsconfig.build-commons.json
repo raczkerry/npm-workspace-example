@@ -1,0 +1,4 @@
+{
+  "files": [],
+  "references": [{ "path": "commons/rest-utils" }, { "path": "commons/shared-utils" }]
+}

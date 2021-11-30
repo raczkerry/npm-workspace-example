@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.build-commons.json",
+  "references": [{ "path": "apps/server" }]
+}

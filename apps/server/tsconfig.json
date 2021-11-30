@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./build"
+  },
+  "includes": ["./src"],
+  "typeRoots": ["types"],
+  "references": [{ "path": "../../commons/rest-utils" }, { "path": "../../commons/shared-utils" }]
+}

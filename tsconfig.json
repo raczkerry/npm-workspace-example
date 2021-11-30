@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es7", "dom", "es2020"],
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "composite": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "noEmitOnError": true,
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "coverage",
+    "config",
+    "jest.config.js",
+    "jest.global.setup.ts",
+    "jest.global.teardown.js",
+    "**/*.test.ts"
+  ]
+}
